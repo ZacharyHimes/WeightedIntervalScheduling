@@ -7,10 +7,8 @@
 # Job 3: 4, 7, 3
 # Job 4: 6, 9, 4
 # Job 4: 8, 11, 5
-
 import csv
 from operator import attrgetter
-from tabulate import tabulate
 
 class Job:
     def __init__(self, start, end, weight):
@@ -20,7 +18,8 @@ class Job:
 
 
 jobs = []
-with open('job2.csv', 'r') as f:
+filename = input("Please enter the name of the CSV you would like to analyze: ")
+with open(filename, 'r') as f:
     reader = csv.reader(f)
     for row in reader:
         jobs.append(Job(row[0], row[1], row[2]))
@@ -64,7 +63,7 @@ def ComputeOpt(j):
 
 
 def FindSolution(j):
-    if j <= 0:
+    if j < 0:
         return
     elif sorted_jobs[j].weight + M[p2[j]] > M[j - 1]:
         print("Index:",j ," Start Time: ",sorted_jobs[j].start, "| End Time: ", sorted_jobs[j].end ,"| Duration: ", sorted_jobs[j].weight)
@@ -83,5 +82,3 @@ print("\n\n")
 print("List of Jobs to get the optimal amount of work done: ")
 print("-----------------------------------------------------")
 FindSolution(index)
-
-
