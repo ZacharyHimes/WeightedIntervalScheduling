@@ -15,7 +15,7 @@
  <img width="1208" alt="JOBCSV-Example" src="https://user-images.githubusercontent.com/48925673/111559840-8005e180-874e-11eb-817c-640b263c30b1.png">  
 As you can see the most profitable sequence of jobs based on weight is going to be Jobs {1, 3, 5} as labled on the diagram, which equates to a total weight of 9.
 
-### job2.csv's visual represenation is as follows:  
+### job2.csv's visual represenation is as follows:
 <img width="1143" alt="Screen Shot 2021-03-17 at 6 25 31 PM" src="https://user-images.githubusercontent.com/48925673/111559902-a297fa80-874e-11eb-881f-8c2477063669.png">
 As you can see the most profitable sequence of jobs based on weight is going to be Jobs {3,7} as labled on the diagram, which equates to a total weight of 10.
 
