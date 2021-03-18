@@ -21,11 +21,11 @@ As you can see the most profitable sequence of jobs based on weight is going to 
 As you can see the most profitable sequence of jobs based on weight is going to be Jobs {3,7} as labled on the diagram, which equates to a total weight of 10.  
 ### Job3.csv  
 Most effecient string of colabrative jobs will be Jobs:  
-* {7,10,3} 
-* {6,7,1} 
-* {4,6,2} 
-* {2,4,2} 
-* {0,2,2}
+* {7,10,3}   
+* {6,7,1}   
+* {4,6,2}   
+* {2,4,2}   
+* {0,2,2}  
 
 ## Running Screen Shots:  
 ### Job1.csv output:
