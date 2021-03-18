@@ -28,7 +28,7 @@ Most effecient string of colabrative jobs will be Jobs:
 - {0,2,2}
 
 ## Running Screen Shots:  
-### Job.csv output:
+### Job1.csv output:
 ![Job1 output](https://user-images.githubusercontent.com/48925673/111563800-e04c5180-8755-11eb-9352-d48abcd25ec6.png)
 ### Job2.csv output:
 ![Job2 output](https://user-images.githubusercontent.com/48925673/111563879-040f9780-8756-11eb-8a8d-ec365dc0333b.png)
