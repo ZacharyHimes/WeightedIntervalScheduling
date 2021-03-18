@@ -16,6 +16,6 @@
 As you can see the most profitable sequence of jobs based on weight is going to be Jobs {1, 3, 5} as labled on the diagram, which equates to a total weight of 9.
 
 ### job2.csv's visual represenation is as follows:
-<img width="1143" alt="Screen Shot 2021-03-17 at 6 25 31 PM" src="https://user-images.githubusercontent.com/48925673/111559902-a297fa80-874e-11eb-881f-8c2477063669.png">
+<img width="1206" alt="Screen Shot 2021-03-17 at 6 42 54 PM" src="https://user-images.githubusercontent.com/48925673/111560850-a7f64480-8750-11eb-87ae-083ea09581c6.png">
 As you can see the most profitable sequence of jobs based on weight is going to be Jobs {3,7} as labled on the diagram, which equates to a total weight of 10.
 
